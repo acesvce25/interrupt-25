@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/button.css";
+import "../Styles/button.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
