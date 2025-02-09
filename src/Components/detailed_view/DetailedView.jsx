@@ -28,7 +28,7 @@ const DetailedView = () => {
 
           <div className="new-container">
             <div className="poster-container">
-              <img src={"../" + event.image} alt="Event Poster" className="poster-image" />
+              <img src={event.image} alt="Event Poster" className="poster-image" />
             </div>
 
             <div className="content-container">
