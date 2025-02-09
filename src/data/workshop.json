@@ -13,7 +13,7 @@
     "event_rules": ["Respect copyright and intellectual property rights when using workshop materials or resources.", "Any unethical behaviour will result in immediate expulsion from the workshop."],
     "event_requirements": ["Participants are advised to bring notebooks or writing utensils(pen, pencil...) for note-taking.", "Valid identification and proof of registration are required.", "Kindly bring laptop."],
     "time": "9:00 AM - 3:00 PM",
-    "image": "./src/assets/events/workshop.jpeg",
+    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/workshop.jpeg",
     "contact": {
       "Lakshmi Priya P": "+91 94983 05395"
     },

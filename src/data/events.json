@@ -26,7 +26,7 @@
     ],
     "event_requirements": ["Valid identification and proof of registration are required.", "Bring pen and laptop."],
     "time": "9:30 AM - 3:00 PM",
-    "image": "./src/assets/events/code_bingo.png",
+    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/code_bingo.png",
     "prize": {
       "Winner": "TBH",
       "Runner Up": "TBH"
@@ -64,7 +64,7 @@
     ],
     "event_requirements": ["Participants must bring their own laptops or devices for both rounds.", "Any required design software or tools should be pre-installed on participants' devices.", "Valid identification and proof of registration are mandatory."],
     "time": "9:30 AM - 3:00 PM",
-    "image": "./src/assets/events/conq_design.jpg",
+    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/conq_design.jpg",
     "prize": {
       "Winner": "TBH",
       "Runner Up": "TBH"
@@ -90,7 +90,7 @@
     "event_rules": ["Team Size : 2 Members", "Use of any AI tools is not allowed."],
     "event_requirements": ["Valid identification and proof of registration are required.", "Bring pen"],
     "time": "9:30 AM - 3:00 PM",
-    "image": "./src/assets/events/lost_code.jpeg",
+    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/lost_code.jpeg",
     "prize": {
       "Winner": "TBH",
       "Runner Up": "TBH"
@@ -122,7 +122,7 @@
     ],
     "event_requirements": ["Participants are advised to bring their own writing materials (pen, pencil) to solve the riddles.", "Valid identification and proof of registration are required."],
     "time": "9:30 AM - 3:00 PM",
-    "image": "./src/assets/events/squid_game.jpeg",
+    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/squid_game.jpeg",
     "prize": {
       "Winner": "TBH",
       "Runner Up": "TBH"
@@ -161,7 +161,7 @@
     ],
     "event_requirements": ["Valid identification and proof of registration are required.", "Each participant must bring their own laptop."],
     "time": "9:30 AM - 3:00 PM",
-    "image": "./src/assets/events/tech_conex.png",
+    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/tech_conex.png",
     "prize": {
       "Winner": "TBH",
       "Runner Up": "TBH"
@@ -198,7 +198,7 @@
     "event_rules": ["Team Size : 2 members only.", "Solutions must be original."],
     "event_requirements": ["Proof of registration & ID required."],
     "time": "9:30 AM - 3:00 PM",
-    "image": "./src/assets/events/gauntlet.jpeg",
+    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/gauntlet.jpeg",
     "prize": {
       "Winner": "TBH",
       "Runner Up": "TBH"
@@ -236,7 +236,7 @@
     ],
     "event_requirements": ["Valid identification and proof of registration are required.", "Bring pen and laptop."],
     "time": "9:30 AM - 3:00 PM",
-    "image": "./src/assets/events/uno.png",
+    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/uno.png",
     "prize": {
       "Winner": "TBH",
       "Runner Up": "TBH"
@@ -261,7 +261,7 @@
     "event_rules": ["Teams size can be either 2 or 3 members.", "Any unethical behaviour will result in immediate disqualification from the event.", "Participants must strictly adhere to the assigned domain provided by the panel.", "The judges' decision will be final and binding."],
     "event_requirements": ["Valid identification and proof of registration are mandatory.", "Participants are required to bring their own laptops."],
     "time": "9:30 AM - 3:00 PM",
-    "image": "./src/assets/events/paper.png",
+    "image": "https://acesvce25.github.io/interrupt-25/src/assets/events/paper.png",
     "prize": {
       "Winner": "TBH",
       "Runner Up": "TBH"
