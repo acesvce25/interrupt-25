@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import "../styles/home.css";
+import "../Styles/home.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import About from "../Components/About";
