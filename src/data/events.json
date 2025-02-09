@@ -1,0 +1,275 @@
+{
+  "Code Bingo": {
+    "date": "Feb 21",
+    "venue": "Round 1 - Block 5, Round 2 - CS LAB",
+    "description": {
+      "Round 1": {
+        "title": "Cryptography & Binary Encoding Quiz",
+        "para": "In this round, teams will face a challenging quiz designed to test their proficiency in cryptography, binary encoding, and related computational concepts. Questions will cover:",
+        "list": ["Binary-to-text encoding methods (e.g., ASCII, Base64)", "Cryptographic techniques such as hashing and encryption", "Logical puzzles requiring encoding and decoding skills"],
+        "para1": "Only the top 10 teams with the highest scores will advance to the next round."
+      },
+      "Round 2": {
+        "title": "Code Bingo",
+        "para": "This round adds a strategic twist to coding. Each team will receive a 5x5 Bingo grid, where every cell contains a unique coding problem. To secure victory, participants must solve five problems in a valid pattern:",
+        "list": ["A complete row", "A complete column, or", "A diagonal (left-to-right or right-to-left)."],
+        "para1": "Each correct solution allows teams to mark off a corresponding letter in \"BINGO.\" The first team to successfully complete a qualifying pattern will emerge as the winner."
+      }
+    },
+    "event_rules": [
+      "Team Size : 2 members only",
+      "Use of any AI tools is not allowed.",
+      "Participants must submit fully functional code before marking a box. Incorrect solutions will not be accepted.",
+      "No skipping or switching problems—participants must solve the exact problem assigned to a box.",
+      "Code execution must be verified by the event coordinators before striking out a letter.",
+      "The judge's decision is final."
+    ],
+    "event_requirements": ["Valid identification and proof of registration are required.", "Bring pen and laptop."],
+    "time": "9:30 AM - 3:00 PM",
+    "image": "./src/assets/events/code_bingo.png",
+    "prize": {
+      "Winner": "TBH",
+      "Runner Up": "TBH"
+    },
+    "contact": {
+      "Poojitha E S": "+91 78240 25827",
+      "Praveen C": "+91 91504 45770"
+    },
+    "form": "https://docs.google.com/forms/d/e/1FAIpQLSdbARykwU0DRtYYZB2p6In4sT6q_Mu-ezCCQXN6QRLRHf1amQ/viewform?usp=dialog"
+  },
+
+  "Conquer and Design": {
+    "date": "Feb 21",
+    "venue": "Round 1 - Block 5, Round 2 - CS LAB",
+    "description": {
+      "Round 1": {
+        "title": "UI/UX Challenge Quiz (Online)",
+        "para": "Teams will participate in a quiz that assesses their knowledge of UI/UX principles, usability concepts, and design thinking. The top 15 teams will be shortlisted for the next round.",
+        "list": [],
+        "para1": ""
+      },
+      "Round 2": {
+        "title": "The Evolutionary Design Challenge",
+        "para": "In this round, teams will engage in a strategic challenge where they acquire two companies and adapt their business models to historical and futuristic tech advancements. Throughout the round, teams will encounter real-time technological disruptions such as the invention of the internet, AI breakthroughs, or the rise of blockchain and must modify their UI/UX designs accordingly.",
+        "list": [],
+        "para1": "Each team will create an interface based on their acquired companies' domain (e.g., FinTech, E-Commerce, Healthcare) while addressing the unique challenges of their assigned tech era. This round tests teams' ability to innovate, strategize, and design user-centric interfaces."
+      }
+    },
+    "event_rules": [
+      "Teams are limited to a maximum of 2 members.",
+      "Acquired companies should align with the UI/UX designs created.",
+      "Teams must justify their investment and design decisions during the final presentation.",
+      "Unethical conduct or plagiarism will lead to immediate disqualification.",
+      "Judges' decisions are final."
+    ],
+    "event_requirements": ["Participants must bring their own laptops or devices for both rounds.", "Any required design software or tools should be pre-installed on participants' devices.", "Valid identification and proof of registration are mandatory."],
+    "time": "9:30 AM - 3:00 PM",
+    "image": "./src/assets/events/conq_design.jpg",
+    "prize": {
+      "Winner": "TBH",
+      "Runner Up": "TBH"
+    },
+    "contact": {
+      "Aneesh Kumar R": "+91 74014 55733",
+      "Vishnuvardan A": "+91 72992 13502"
+    },
+    "form": "https://docs.google.com/forms/d/e/1FAIpQLSehofhd58fSMQ9X9UHvBp6xytfU88Ba-osGh3MA-WsCnrXk7g/viewform?usp=dialog"
+  },
+
+  "The Lost Code": {
+    "date": "Feb 21",
+    "venue": "Block 5",
+    "description": {
+      "Round 1": {
+        "title": "",
+        "para": "Treasure Hunt is an exciting, adventurous, and fun-filled technical game that will put your problem-solving and coding skills to the test! This multi-stage challenge will taketeams through a series of thrilling tasks, from cracking riddles to uncovering hidden clues and solving logic-based puzzles. As you progress through different rooms, each step will bring you closer to the grand finale, where a final coding challenge awaits. Speed, accuracy, and teamwork are key to outsmarting the competition and claiming victory. Burst through obstacles—literally—and race against time to prove your technical prowess.",
+        "list": [],
+        "para1": ""
+      }
+    },
+    "event_rules": ["Team Size : 2 Members", "Use of any AI tools is not allowed."],
+    "event_requirements": ["Valid identification and proof of registration are required.", "Bring pen"],
+    "time": "9:30 AM - 3:00 PM",
+    "image": "./src/assets/events/lost_code.jpeg",
+    "prize": {
+      "Winner": "TBH",
+      "Runner Up": "TBH"
+    },
+    "contact": {
+      "Manoj Kumar S": "+91 82209 69058",
+      "Akeel Ahamed R S": "+91 77083 82698"
+    },
+    "form": "https://docs.google.com/forms/d/e/1FAIpQLSeHYDMAMGDzSJtKAL3xvGLbuk0tuFPL_YbiQdSOcFyX_LT71g/viewform?usp=dialog"
+  },
+
+  "Squid Game": {
+    "date": "Feb 21",
+    "venue": "Block 5",
+    "description": {
+      "Round 1": {
+        "title": "",
+        "para": "In this high-stakes solo event inspired by Squid Game, participants will face off against a series of tech-related riddles, with the goal of surviving to the end of the game. The room will be set up with benches, each containing a tech-related riddle. As participants attempt to solve the riddles, alternating red and green lights will signal when they can and cannot work. ",
+        "list": ["Green Light: Participants can solve the riddle. They have until the green light ends to submit their answer.", "Red Light: Participants must stop solving the riddle. If caught solving the riddle during the red light, they will be eliminated."],
+        "para1": "The winner will be determined by the process of elimination, where only the last person remaining after all others are eliminated will be declared the winner.\nThe event will be fast-paced, engaging, and filled with the thrill of unpredictability, ensuring that only the sharpest minds will succeed. "
+      }
+    },
+    "event_rules": [
+      "This is a solo event.",
+      "Participants must solve the riddles within the allotted green light time to avoid elimination.",
+      "If a participant is caught solving the riddle during the red light, they will be eliminated.",
+      "No external help or devices are allowed.",
+      "Judges' decisions are final."
+    ],
+    "event_requirements": ["Participants are advised to bring their own writing materials (pen, pencil) to solve the riddles.", "Valid identification and proof of registration are required."],
+    "time": "9:30 AM - 3:00 PM",
+    "image": "./src/assets/events/squid_game.jpeg",
+    "prize": {
+      "Winner": "TBH",
+      "Runner Up": "TBH"
+    },
+    "contact": {
+      "Pooja A": "+91 73974 17778",
+      "Naafiah Yusra A": "+91 93618 87936"
+    },
+    "form": "https://docs.google.com/forms/d/e/1FAIpQLSc3vgYMl0hD26eTxNEz6moQAHhcsTCVcgS0NOWbjd7LO2p1cg/viewform?usp=dialog"
+  },
+
+  "TechConnex - The Ultimate Tech Challenge!": {
+    "date": "Feb 21",
+    "venue": "Round 1 - Block 5, Round 2 - CS LAB",
+    "description": {
+      "Round 1": {
+        "title": "Connexion - The Tech Puzzle Challenge!",
+        "para": "In this round, teams will be presented with a series of technology-related images, words, or clues. The objective is to find the hidden connection as quickly as possible. Each correct answer earns 10 points, and there are no penalties for wrong answers. The teams with the highest scores will qualify for the next round.",
+        "list": [],
+        "para1": ""
+      },
+      "Round 2": {
+        "title": "Data Warriors - The Ultimate Data Battle! ",
+        "para": "In this round, teams will receive a mystery dataset related to real-world problems. Their mission is to preprocess, analyze, and visualize the data using Python, R, Excel, Power bi, Tableau or any preferred tool. After 60 minutes of analysis, each team will present their findings in a 5-minute pitch followed by a Q&A session with the judges.",
+        "list": [],
+        "para1": ""
+      }
+    },
+    "event_rules": [
+      "Team Size : 2 Members",
+      "Use of AI tools is not allowed.",
+      "Participants must approach tasks positively and complete them without objection.",
+      "Malpractices of any kind will result in immediate disqualification.",
+      "Each team must ensure their solutions run successfully before submission.",
+      "Judges' decisions are final and binding."
+    ],
+    "event_requirements": ["Valid identification and proof of registration are required.", "Each participant must bring their own laptop."],
+    "time": "9:30 AM - 3:00 PM",
+    "image": "./src/assets/events/tech_conex.png",
+    "prize": {
+      "Winner": "TBH",
+      "Runner Up": "TBH"
+    },
+    "contact": {
+      "Harsh S": "+91 98414 51401",
+      "Lokesh Varathan M": "+91 83002 71821"
+    },
+    "form": "https://docs.google.com/forms/d/e/1FAIpQLSe1LR036I6cYI4j2MW55BBph4aoSDK70-zKZ5hrQtxDOo78ow/viewform?usp=dialog"
+  },
+
+  "Gauntlet": {
+    "date": "Feb 21",
+    "venue": "Block 5",
+    "description": {
+      "Round 1": {
+        "title": "Preliminary Round",
+        "para": "Teams solve coding problems in 45-60 minutes to collect Infinity Stones",
+        "list": [
+          "Teams will get one infinity stone each for every coding problem solved",
+          "Teams which obtain the maximum Infinity Stones (five) will be sent to round",
+          "Teams which obtain more than three infinity stones will be put into safe zone where the team will have a higher probability to be selected for round two",
+          "If a team obtains five infinity stones two of the stones can be used as advantage stones in round"
+        ],
+        "para1": ""
+      },
+      "Round 2": {
+        "title": "Final Round",
+        "para": "Each team is assigned a company and a root problem by the event organisers. Teams must develop solutions using existing and evolving domains of technology and pitch them to the judges. Advantage Stones can be used to:",
+        "list": ["Pick Their Company - Choose a company instead of being randomly assigned one.", "Assign Constraints - Can pick a constraint/penalty for an opponent from the given list.", "Double Advantage - Use both benefits (only if they have two advantage stones)."],
+        "para1": "The best solutions will be determined by the judges."
+      }
+    },
+    "event_rules": ["Team Size : 2 members only.", "Solutions must be original."],
+    "event_requirements": ["Proof of registration & ID required."],
+    "time": "9:30 AM - 3:00 PM",
+    "image": "./src/assets/events/gauntlet.jpeg",
+    "prize": {
+      "Winner": "TBH",
+      "Runner Up": "TBH"
+    },
+    "contact": {
+      "Pradeep Krishna J": "+91 98845 42004",
+      "Sahana B": "+91 78248 82255"
+    },
+    "form": "https://docs.google.com/forms/d/e/1FAIpQLSdz-osb2ICIr-XUHu6LbxSruRQ0xqKQoWRr1V1GU1iSc7p8SQ/viewform?usp=dialog"
+  },
+  "Uno Mania": {
+    "date": "Feb 21",
+    "venue": "Round 1 - Block 5, Round 2 - CS LAB",
+    "description": {
+      "Round 1": {
+        "title": "Crossword Puzzle",
+        "para": "In this round, teams will be presented with a technical crossword puzzle. Clues will be provided for words arranged across, down, and up. The objective is to solve the puzzle accurately in the shortest possible time. The top 10 teams with the fastest completion times will qualify for the next round. Round 1 will be conducted in four batches.",
+        "list": [],
+        "para1": ""
+      },
+      "Round 2": {
+        "title": "UNO Coding",
+        "para": "In this round, teams will tackle three unique coding problems with an exciting twist. Participants will draw UNO cards, each introducing tasks, penalties, or advantages. Additionally, unexpected challenges will arise as they solve each question, testing their adaptability and problem-solving skills. Teams must ensure seamless execution of their code within the given time, and those who complete the challenges fastest will win.",
+        "list": [],
+        "para1": ""
+      }
+    },
+    "event_rules": [
+      "Team Size : 2 members only.",
+      "Use of any AI tools is not allowed.",
+      "Participants are kindly asked to complete tasks without objection, approaching them positively.",
+      "Malpractices of any sort are strictly condemned. If found it results in immediate disqualification.",
+      "Each team must ensure their code runs successfully before submission. Partial or incorrect solutions aren’t accepted.",
+      "Judge's decisions are final."
+    ],
+    "event_requirements": ["Valid identification and proof of registration are required.", "Bring pen and laptop."],
+    "time": "9:30 AM - 3:00 PM",
+    "image": "./src/assets/events/uno.png",
+    "prize": {
+      "Winner": "TBH",
+      "Runner Up": "TBH"
+    },
+    "contact": {
+      "Srilekha P": "+91 78128 63379",
+      "Mithun S": "+91 +91 70103 41676"
+    },
+    "form": "https://docs.google.com/forms/d/e/1FAIpQLSeqng4ckD2K8LbjQ3m8PV18EKYkSm4Y1X5STiqdOVBYGj8jLQ/viewform?usp=sharing"
+  },
+  "Paper Presentation": {
+    "date": "Feb 21",
+    "venue": "CS LAB",
+    "description": {
+      "Round 1": {
+        "title": "",
+        "para": "This event serves as a platform for students, professionals, and researchers to explore and present cutting-edge advancements in various technology domains. Participants will have the opportunity to showcase their research, gain insights from experts, and engage in discussions on emerging trends.",
+        "list": [],
+        "para1": "The event covers a broad spectrum of fields, including Artificial Intelligence, Cybersecurity, Data Science, Machine Learning, Blockchain, Internet of Things (IoT), and Cloud Computing."
+      }
+    },
+    "event_rules": ["Teams size can be either 2 or 3 members.", "Any unethical behaviour will result in immediate disqualification from the event.", "Participants must strictly adhere to the assigned domain provided by the panel.", "The judges' decision will be final and binding."],
+    "event_requirements": ["Valid identification and proof of registration are mandatory.", "Participants are required to bring their own laptops."],
+    "time": "9:30 AM - 3:00 PM",
+    "image": "./src/assets/events/paper.png",
+    "prize": {
+      "Winner": "TBH",
+      "Runner Up": "TBH"
+    },
+    "contact": {
+      "Srinidhi S": "+91 93848 41839",
+      "Prasanna V B": "+91 73050 45675"
+    },
+    "form": "https://docs.google.com/forms/d/e/1FAIpQLScIchwHB0Z_vvzvp2FHKcAphuLBXV7-CGI2keI1hpzb11F15w/viewform?usp=dialog"
+  }
+}

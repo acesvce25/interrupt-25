@@ -1,0 +1,236 @@
+.gallery{
+  width: 100%;
+}
+
+.gallery h1{
+  margin-top: 2%;
+  padding-left: 5%;
+  color: gold;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+#image-carousel {
+  width: 75%;
+  max-width: 1200px;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.splide__slide {
+  margin: 0 1rem;
+  position: relative;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  height: 350px; /* Set a fixed height for the slides */
+}
+
+.splide__slide img {
+  width: auto; /* Allow the image to maintain aspect ratio */
+  height: 100%; /* Make the image fill the height of the slide */
+  max-width: 100%; /* Ensure the image does not overflow horizontally */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  object-fit: cover;
+  transform-origin: center center;
+}
+
+/* Zoom-in Effect on Hover without extending width */
+.splide__slide img:hover {
+  transform: scale(1.0); 
+  box-shadow: 0 6px 15px rgba(255, 215, 0, 0.8);
+}
+
+.caption {
+  position: absolute;
+  bottom:-20px;
+  left: 0;
+  right: 0;
+  width: calc(100% + 20px); /* Extend slightly beyond the slide width */
+  margin-left: -40px; /* Center the background if extended */
+  color: gold;
+  padding: 1rem;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 1;
+  overflow: hidden; /* Ensures no unwanted overflow */
+  font-weight: 800;
+}
+
+.splide__slide:hover .caption {
+  opacity: 1;
+  transform: translateY(0);
+  
+}
+
+/* Arrow Button Styling */
+.splide__arrow {
+  background: gold;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  opacity: 1;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.splide__arrow:hover {
+  transform: scale(1.1) translateY(-50%);
+  box-shadow: 0 4px 10px rgba(255, 215, 0, 0.8);
+}
+
+.splide__arrow--prev {
+  left: 0;
+}
+
+.splide__arrow--next {
+  right: 0;
+}
+
+/* Thumbnail Navigation */
+.thumbnail-nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 100px;
+  position: relative;
+  z-index: 10;
+}
+
+.thumbnail-nav img {
+  width: 80px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.thumbnail-nav img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+/* Add Animation to Arrow Visibility */
+.splide__arrow {
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Splide Auto Scroll */
+.splide__track {
+  overflow: hidden;
+}
+
+.splide__list {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+@media (max-width: 760px) { 
+  .splide__arrow {
+    width: 40px; /* Reduce size for small screens */
+    height: 40px;
+    font-size: 18px;
+    margin-top: 55px;
+  }
+
+  .splide__arrow--prev {
+    left: 10px; /* Position inside the slider */
+  }
+
+  .splide__arrow--next {
+    right: 10px; /* Position inside the slider */
+  }
+
+  .splide__slide img {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the full image is visible */
+    display: block;
+    margin: 0 auto; /* Center the image */
+  }
+  .splide__slide:hover .caption {
+    opacity: 1;
+    transform: translateY(0);
+    bottom:-20px;
+    
+  }
+  .thumbnail-nav {
+    flex-wrap: wrap; /* Allow wrapping for better visibility */
+    gap: 5px; /* Reduce gap for small screens */
+    margin-top: 50px; /* Adjust spacing */
+  }
+
+  .thumbnail-nav img {
+    width: 60px; /* Reduce size for mobile */
+    height: 45px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+}
+
+
+.splide__slide img {
+  width: auto; /* Allow the image to maintain aspect ratio */
+  height: 100%; /* Make the image fill the height of the slide */
+  max-width: 100%; /* Ensure the image does not overflow horizontally */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  object-fit: cover;
+  transform-origin: center center;
+}
+
+
+@media (min-width: 1025px) {
+  .splide__arrow--prev {
+    left: 10px; /* Move arrow inside the slider */
+  }
+
+  .splide__arrow--next {
+    right: 10px; /* Move arrow inside the slider */
+  }
+
+  .splide__arrow {
+    opacity: 1 !important; /* Ensure arrows are visible */
+    display: flex !important; /* Force display */
+    z-index: 1000 !important; /* Ensure arrows stay above other elements */
+  }
+}
+
+@media (min-width: 761px) and (max-width: 1024px) {
+  .thumbnail-nav {
+    gap: 5px; /* Standard spacing for tablet view */
+    margin-top: 70px;
+  }
+
+  .thumbnail-nav img {
+    width: 40px; /* Adjust for better tablet visibility */
+    height: 50px;
+  }
+}

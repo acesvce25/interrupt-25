@@ -1,0 +1,22 @@
+{
+  "Exploring Augmented Reality: A Hands-On Workshop": {
+    "date": "FEB 21",
+    "venue": "CS LAB",
+    "description": {
+      "Round 1": {
+        "title": "",
+        "para": "Unlock the power of augmented reality (AR) in our hands-on workshop, where innovation meets creativity. This immersive session will introduce you to the fundamentals of AR and VR, guiding you through the essential concepts that power these groundbreaking technologies.",
+        "list": [],
+        "para1": "Participants will explore the basics of Unity, the leading game engine for AR development, and learn how to navigate its interfaces efficiently. From understanding the core mechanics of AR to implementing marker-based and marker-less AR applications, this workshop will equip you with the practical skills needed to bring digital experiences to life. Whether you are an aspiring AR developer or simply fascinated by the possibilities of this cutting-edge technology, join us to transform your ideas into reality!"
+      }
+    },
+    "event_rules": ["Respect copyright and intellectual property rights when using workshop materials or resources.", "Any unethical behaviour will result in immediate expulsion from the workshop."],
+    "event_requirements": ["Participants are advised to bring notebooks or writing utensils(pen, pencil...) for note-taking.", "Valid identification and proof of registration are required.", "Kindly bring laptop."],
+    "time": "9:00 AM - 3:00 PM",
+    "image": "./src/assets/events/workshop.jpeg",
+    "contact": {
+      "Lakshmi Priya P": "+91 94983 05395"
+    },
+    "form": "link"
+  }
+}

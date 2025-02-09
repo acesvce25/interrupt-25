@@ -1,0 +1,84 @@
+/* General Styling */
+.homepage-container {
+  height: 90vh;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+.content h3 {
+  padding: 20px;
+  margin-top: -60px;
+  font-size: 48px;
+  color: gold;
+  font-family: 'Montserrat';
+}
+
+.content p {
+  font-size: 30px;
+  color: greenyellow;
+  font-family: 'Montserrat';
+}
+/* Enlarged Logo */
+.large-logo {
+  width: auto; /* Increased size */
+  height: 30%;
+}
+.event-dates {
+  color: gold;
+  font-size: 27px;
+}
+/* Button Container */
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Big Button Group */
+.big-button-group {
+  display: flex;
+  gap: 30px;
+}
+
+.big-button-group > *{
+  font-family: 'Montserrat';
+}
+
+.event-dates p{
+  font-family: 'Montserrat';
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .large-logo {
+    width: 300px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .big-button-group {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .large-logo {
+    width: 250px;
+  }
+
+  .button-container {
+    margin-top: 30px;
+  }
+}
