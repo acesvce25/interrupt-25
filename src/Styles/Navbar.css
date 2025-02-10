@@ -48,7 +48,7 @@ body {
 
 .logo-left .svce {
   max-width: 100px;
-  height: auto;
+  max-height: 100px;
 }
 
 /* Right logo styles */
@@ -60,7 +60,7 @@ body {
 
 .logo-right .ace {
   max-width: 100px;
-  height: auto;
+  max-height: 100px;
 }
 
 /* Navbar links styling */

@@ -12,7 +12,7 @@
       "Round 2": {
         "title": "Code Bingo",
         "para": "This round adds a strategic twist to coding. Each team will receive a 5x5 Bingo grid, where every cell contains a unique coding problem. To secure victory, participants must solve five problems in a valid pattern:",
-        "list": ["A complete row", "A complete column, or", "A diagonal (left-to-right or right-to-left)."],
+        "list": ["A complete row", "A complete column"],
         "para1": "Each correct solution allows teams to mark off a corresponding letter in \"BINGO.\" The first team to successfully complete a qualifying pattern will emerge as the winner."
       }
     },
@@ -173,7 +173,7 @@
     "form": "https://docs.google.com/forms/d/e/1FAIpQLSe1LR036I6cYI4j2MW55BBph4aoSDK70-zKZ5hrQtxDOo78ow/viewform?usp=dialog"
   },
 
-  "Gauntlet": {
+  "Gauntlet Quest": {
     "date": "Feb 21",
     "venue": "Block 5",
     "description": {

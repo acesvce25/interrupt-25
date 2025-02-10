@@ -21,7 +21,6 @@
   content: "";
   position: absolute;
   top: 40%; /* Center vertically */
-  width: 100px; /* Length of the horizontal line */
   height: 2px; /* Thickness of the line */
   background-color: #ffd700; /* Gold color to match your theme */
   overflow: hidden;
@@ -120,7 +119,7 @@
     content: "";
     position: absolute;
     top: 40%; /* Center vertically */
-    width: 43px; /* Shorter line length for smaller screens */
+    width: 0%; /* Shorter line length for smaller screens */
     height: 2px; /* Thickness of the line */
     background-color: #ffd700; /* Gold color */
   }

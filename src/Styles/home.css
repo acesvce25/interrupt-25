@@ -2,7 +2,7 @@
 .homepage-container {
   height: 90vh;
   text-align: center;
-  padding: 20px;
+  /* padding: 20px; */
   color: #fff;
   display: flex;
   flex-direction: column;
