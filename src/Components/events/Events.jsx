@@ -29,9 +29,6 @@ const Events = () => {
             navigate(`/events/${title}`)
           }}>
               <img src={event.image} alt={title} className="events-event-image" />
-            <div className="events-event-details">
-              <p className="events-event-name">{title}</p>
-            </div>
           </div>
           )
         })}
