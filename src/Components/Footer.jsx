@@ -65,6 +65,11 @@ export default function Footer() {
               <li>
                 <a className="footer-link" href="/sponsors">Sponsors</a>
               </li>
+              <li>
+                <a className="footer-link" href="/gallery">Gallery</a>
+              </li>
+              <li>
+              </li>
             </ul>
           </div>
         </div>
