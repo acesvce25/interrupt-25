@@ -2,19 +2,12 @@ import '@splidejs/splide/dist/css/splide.min.css';  // Correct Splide CSS import
 import 'lightbox2/dist/css/lightbox.min.css';  // Lightbox CSS
 import React, { useState, useEffect, useRef } from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';  // Correct React Splide import
+import gallery_det from "../../data/images.json"; 
 import "../../Styles/gallery.css";
 
 const Gallery = () => {
-  const [images, setImages] = useState([]);
+  const [images, setImages] = useState(gallery_det);
   const splideRef = useRef(null);  // Create a ref to store the Splide instance
-
-  // Fetch image data from JSON
-  useEffect(() => {
-    fetch('/src/data/images.json')
-      .then((response) => response.json())
-      .then((data) => setImages(data))
-      .catch((error) => console.error('Error fetching images:', error));
-  }, []);
 
   const handleThumbnailClick = (index) => {
     if (splideRef.current) {
