@@ -52,7 +52,7 @@ export default function Footer() {
                 <a className="footer-link" href="/events">Events</a>
               </li>
               <li>
-                <a className="footer-link" href="/workshops">Workshops</a>
+                <a className="footer-link" href="/workshop">Workshops</a>
               </li>
               <li>
                 <a className="footer-link" href="/home">Home</a>
