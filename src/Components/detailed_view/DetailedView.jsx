@@ -4,18 +4,13 @@ import events from "../../data/events.json";
 import workshop from "../../data/workshop.json";
 import { useParams } from "react-router-dom";
 
-const DetailedView = () => {
+const DetailedView = ({type}) => {
   const params = useParams();
-  const title = params.id;
+  const title = type === "workshop" ? "Exploring Augmented Reality: A Hands-On Workshop" : params.id;
 
-  console.log(params);
-
-  console.log(workshop[title]);
-
-  const event = title.includes("Workshop") ? workshop[title] : events[title];
-  const type = title.includes("Workshop") ? "workshop" : "event";
-
-  console.log(event);
+  console.log(type);
+  
+  const event = type === "workshop" ? workshop[title] : events[title];
 
   console.log(import.meta.env.PUBLIC_URL);
 

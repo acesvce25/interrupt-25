@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import logo from "../assets/interrupt-footer.png";
-import { FaInstagram, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope, FaInstagram, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
 
 export default function Footer() {
   useEffect(() => {
@@ -36,8 +36,8 @@ export default function Footer() {
             >
               <FaLinkedin className="icon" />
             </a>
-            <a href="tel:+1234567890">
-              <FaPhoneAlt className="icon" />
+            <a href="mailto:ace.csesvce23@gmail.com">
+              <FaEnvelope className="icon" />
             </a>
           </div>
         </div>
@@ -62,9 +62,6 @@ export default function Footer() {
           <div className="footer-section">
             <h3>Know More</h3>
             <ul>
-              <li>
-                <a className="footer-link" href="/schedule">Schedule</a>
-              </li>
               <li>
                 <a className="footer-link" href="/sponsors">Sponsors</a>
               </li>
