@@ -108,17 +108,17 @@
     "description": {
       "Round 1": {
         "title": "",
-        "para": "In this high-stakes solo event inspired by Squid Game, participants will face off against a series of tech-related riddles, with the goal of surviving to the end of the game. The room will be set up with benches, each containing a tech-related riddle. As participants attempt to solve the riddles, alternating red and green lights will signal when they can and cannot work. ",
-        "list": ["Green Light: Participants can solve the riddle. They have until the green light ends to submit their answer.", "Red Light: Participants must stop solving the riddle. If caught solving the riddle during the red light, they will be eliminated."],
-        "para1": "The winner will be determined by the process of elimination, where only the last person remaining after all others are eliminated will be declared the winner.\nThe event will be fast-paced, engaging, and filled with the thrill of unpredictability, ensuring that only the sharpest minds will succeed. "
+        "para": "In this high-stakes solo event inspired by Squid Game, participants will face off against a series of challenges designed to test their tech skills, strategy, and nerves of steel. The event will kick off with a hands-on challenge that requires precision and patience. Then, get ready for a heart-pumping game of Red Light, Green Light, where participants must solve tech puzzles under the pressure of alternating lights. One wrong move during the red light, and you're out! Later, participants will roll the dice to determine their fate and tackle a high-pressure question-solving round. Only the sharpest minds will survive the competition and be crowned the ultimate winner.",
+        "list": [],
+        "para1": ""
       }
     },
     "event_rules": [
       "This is a solo event.",
-      "Participants must solve the riddles within the allotted green light time to avoid elimination.",
-      "If a participant is caught solving the riddle during the red light, they will be eliminated.",
+      "Participants must complete each task within the allotted time or according to the specific challenge rules to avoid elimination.",
       "No external help or devices are allowed.",
-      "Judges' decisions are final."
+      "Judges' decisions are final.",
+      "Participants must follow the specific rules and instructions provided for each task."
     ],
     "event_requirements": ["Participants are advised to bring their own writing materials (pen, pencil) to solve the riddles.", "Valid identification and proof of registration are required."],
     "time": "9:30 AM - 3:00 PM",
