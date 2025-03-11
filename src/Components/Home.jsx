@@ -24,7 +24,7 @@ export default function Home() {
         <p data-aos='fade-right'>Sri Venkateswara College of Engineering</p>{" "}
       </div>
       <div className="event-dates">
-        <p data-aos='flip-left'>5th March 2025</p>
+        <p data-aos='flip-left'>19th March 2025</p>
       </div>
 
       <div className="button-container">
