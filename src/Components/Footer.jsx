@@ -69,7 +69,7 @@ export default function Footer() {
                 <a className="footer-link" href="/gallery">Gallery</a>
               </li>
               <li>
-              <a className="footer-link" href="https://www.svce.ac.in/facilities/transport/bus-schedule/?accordion=headingFive" target="_blank">Bus Schedule</a>
+              <a className="footer-link" href="https://www.svce.ac.in/facilities/transport/bus-route-informations/" target="_blank">Bus Route</a>
 
               </li>
             </ul>
