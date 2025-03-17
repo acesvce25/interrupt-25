@@ -1,0 +1,72 @@
+
+  
+  .rules-container {
+    width: 80%;
+    font-family: 'Poppins';
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title */
+  .rules-title {
+    text-align: center;
+    color: gold;
+    font-size: 250%;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  /* Section styles */
+  .rule-section {
+    margin-bottom: 20px;
+  }
+  
+  .rule-heading {
+    color: gold;
+    font-size: 175%;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .rule-list {
+    margin-left: 20px;
+    list-style-type: none;
+  } 
+  
+  .rule-list li {
+    color: white;
+    font-size: 125%;
+    line-height: 1.6;
+    text-indent: 5%;
+  }
+  
+  .rule-section p {
+    text-indent: 5%;
+    color: white;
+    font-size: 125%;
+    line-height: 1.6;
+  }
+  
+  /* Decorative icons */
+  .rule-heading:before {
+    content: "";
+    margin-right: 10px;
+    font-size: 1.5rem;
+    color: #FF6347;
+    vertical-align: middle;
+  }
+  
+  /* List styling */
+  ul {
+    padding: 0;
+  }
+  
+  /* For better spacing */
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  

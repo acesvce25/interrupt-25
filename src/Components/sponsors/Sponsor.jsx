@@ -18,7 +18,7 @@ const Sponsors = () => {
 
   return (
     <div className="sponsors-container">
-      <h1>Our Sponsors</h1>
+      <h1>Global Educational Sponsor</h1>
       {sponsors.sponsers.length === 0 ? (
         <h1>To be Updated Soon</h1>
       ) : (
@@ -28,7 +28,7 @@ const Sponsors = () => {
               <a href={sponsor.url} target="_blank" rel="noopener noreferrer">
                 <img src={sponsor.logo} alt={`${sponsor.name} Logo`} />
               </a>
-              <p>{sponsor.name}</p>
+              {/* <p>{sponsor.name}</p> */}
             </div>
           ))}
         </div>

@@ -10,6 +10,7 @@ import Events from "./Components/events/Events";
 import Sponsors from "./Components/sponsors/Sponsor";
 import Workshop from "./Components/workshop/Workshop";
 import Gallery from "./Components/gallery/Gallery";
+import Rule from "./Components/rules/Rule";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/sponsors" element={<Sponsors />} />
           <Route path="/workshop/:id" element={<DetailedView />} />
+          <Route path="/rules" element={<Rule />} />
         </Routes>
       </Router>
     </div>

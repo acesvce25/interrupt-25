@@ -32,6 +32,15 @@ export default function Navbar() {
           </li>
           <li>
             <Link
+              to="/rules"
+              className={params.pathname === "/rules" ? "active" : ""}
+              style={{whiteSpace:"nowrap"}}
+            >
+              Rules
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/events"
               className={params.pathname.includes("/events") === true ? "active" : ""}
             >

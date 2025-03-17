@@ -21,10 +21,13 @@
 
 /* Grid Styling */
 .sponsors-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 columns for desktop */
-  gap: 20px; /* Space between items */
-  justify-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* grid-template-columns: repeat(4, 1fr); 4 columns for desktop */
+  /* gap: 20px; Space between items */
+  /* justify-items: center; */
 }
 
 /* Card Styling */
@@ -35,7 +38,7 @@
   padding: 15px;
   text-align: center;
   transition: transform 0.3s ease;
-  width: 100%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
